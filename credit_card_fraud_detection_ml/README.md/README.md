@@ -22,16 +22,25 @@ This project aims to detect fraudulent credit card transactions using machine le
 ```
 credit_card_fraud_detection_ml/
 ├── data/
-│   └── cleaned_data_final.csv             # Sample cleaned transaction data
+│   ├── cleaned_data_final.csv
+│   ├── filter_top.csv
+│   ├── vars_final.csv
+│   ├── vars_keep_filter.csv
+│   └── vars_keep_sorted.csv
+│
+├── images/
+│   ├── feature_selection_graph_summary.png
+│   └── summary.pdf
+│
 ├── notebooks/
-│   ├── variable_creation.ipynb
+│   ├── applications_models.ipynb
+│   ├── data_cleaning_and_exploration.ipynb
 │   ├── feature_deduplication.ipynb
 │   ├── feature_selection.ipynb
-│   └── data_cleaning_and_exploration.ipynb
-├── images/
-│   └── (visuals: performance curves, feature importances, etc.)
-├── README.md
-└── requirements.txt
+│   └── variable_creation.ipynb
+│
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -116,8 +125,7 @@ RandomForestClassifier(
 
 **Yanmin Chen**  
 🎓 Business Analytics @ USC Marshall  
-📫 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourname) | [GitHub](https://github.com/yourgithub)
+📫 yanminc7@gmail.com 
 
 ---
 
